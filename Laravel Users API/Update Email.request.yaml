@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{base_url}}/api/users/update-email"
+method: PATCH
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: text
+  content: |-
+    {
+        "email": "test@example.com",
+        "password": "password123",
+        "new_email": "test-updated@example.com"
+    }
+order: 5000

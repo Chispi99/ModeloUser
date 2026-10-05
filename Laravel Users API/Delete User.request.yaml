@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{base_url}}/api/users"
+method: DELETE
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: text
+  content: |-
+    {
+        "email": "test@example.com",
+        "password": "password123"
+    }
+order: 7000

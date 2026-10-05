@@ -1,0 +1,4 @@
+$kind: collection
+description: Collection for testing the Users API
+variables:
+  base_url: http://localhost:8000

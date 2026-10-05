@@ -1,0 +1,7 @@
+# Use this workspace to collaborate
+workspace:
+  id: e9b1b083-f227-4845-8722-38b66bd8813c
+
+localResources:
+  collections:
+    - ../Laravel Users API
